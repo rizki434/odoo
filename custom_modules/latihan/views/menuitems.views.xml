@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Menu Root -->
+        <menuitem id="biodata_root" name="Biodata" sequence="1"/>
+
+        <!-- Submenu yang merujuk ke tindakan (action) -->
+        <menuitem id="biodata_menu" name="Biodata" action="latihan_biodata_action" sequence="1" parent="biodata_root"/>
+    </data>
+</odoo>
